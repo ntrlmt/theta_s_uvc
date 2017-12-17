@@ -2,12 +2,10 @@
 
 Ricoh Theta S ROS node by using uvc(usb video class) 1.1
 
-## Ricoh theta s
-
+## Ricoh Theta S
 https://theta360.com/en/about/theta/s.html
 
-## Ricoh theta doc
-
+## Ricoh Theta Doc
 https://developers.theta360.com/en/docs/introduction/
 
 
@@ -21,7 +19,7 @@ sudo apt-get update
 sudo apt-get install ros-<distro>-usb-cam
 ```
 
-## Ricoh theta s UVC info
+## Ricoh Theta S UVC info
 
 lsusb -v
 ```
