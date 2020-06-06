@@ -1,5 +1,5 @@
 <launch>
-  <arg name="device" default="/dev/video1"/>
+  <arg name="device" default="/dev/video0"/>
   <arg name="camera_name" default="theta_s_uvc"/>
   <arg name="enable_image_view" default="false"/>
   <node name="$(arg camera_name)" pkg="usb_cam" type="usb_cam_node" output="screen" >
